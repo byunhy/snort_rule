@@ -1,0 +1,11 @@
+alert tcp any any -> any 80 (msg:"test rule"; content:"GET /"; content:"Host: test.gilgil.net"; sid:10001; rev:1;)
+alert tcp any any -> any 443 (msg:"test rule"; content:"www.naver.com"; sid:10002; rev:1;)
+alert tcp any any -> any 443 (msg:"test rule"; content:"www.daum.net"; sid:10003; rev:1;)
+alert tcp any any -> any 443 (msg:"test rule"; content:"www.google.com"; sid:10004; rev:1;)
+alert tcp any any -> any 443 (msg:"test rule"; content:"www.joongbu.ac.kr"; sid:10005; rev:1;)
+alert tcp any any -> any 443 (msg:"test rule"; content:"www.incruit.com"; sid:10006; rev:1;)
+alert tcp any any -> any 443 (msg:"test rule"; content:"www.blizzard.kr"; sid:10007; rev:1;)
+alert tcp any any -> any 443 (msg:"test rule"; content:"www.youtube.com"; sid:10008; rev:1;)
+alert tcp any any -> any 443 (msg:"test rule"; content:"www.seoulmetro.co.kr"; sid:10009; rev:1;)
+alert tcp any any -> any 443 (msg:"test rule"; content:"www.apple.com"; sid:10010; rev:1;)
+
